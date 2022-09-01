@@ -1,0 +1,58 @@
+.rows{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cols{
+    width: 33%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+   
+    padding: 10px 0;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.2);
+}
+
+.cols .number{
+    padding: 10px 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    
+}
+.cols .number span{
+    font-weight: 200;
+    font-size:35px;
+}
+.cols .des{
+    padding: 10px 0;
+    margin-top: 5px;
+        
+}
+.hr{
+    border-top: 1px solid #ddd;
+    width: 100%;
+    
+}
+.cols .des span{
+    font-weight: 400;
+    font-size:14px;
+}
+
+.primary-text{
+    color:#0088ff;
+}
+.success-text{
+    color:#00ff99;
+}
+.danger-text{
+    color:#ff3322;
+}
